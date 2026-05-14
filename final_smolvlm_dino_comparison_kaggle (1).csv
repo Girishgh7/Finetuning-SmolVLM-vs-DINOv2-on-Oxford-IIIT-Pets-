@@ -1,0 +1,3 @@
+model,task,train_samples,test_samples,accuracy,macro_f1,notes
+DINOv2-small,closed-set image classification,1200,500,0.804,0.7920290050965155,Direct classifier; expected to be stronger for fixed breed labels.
+HuggingFaceTB/SmolVLM-256M-Instruct,image + question -> breed text,600,200,0.33,0.2968924025526529,"Fine-tuned VLM; flexible natural-language output, mapped back to labels."
