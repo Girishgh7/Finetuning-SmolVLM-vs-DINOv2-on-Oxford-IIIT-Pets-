@@ -71,6 +71,3 @@ To rerun training/evaluation, open the final notebook in Kaggle or Jupyter and e
 - SmolVLM needs stricter answer formatting, more training examples, or stronger post-processing before it is competitive on this exact benchmark.
 - The comparison is not perfectly apples-to-apples because the available final exports use different train/test subset sizes for the two models. I treated the results as an experimental comparison, not a formal benchmark paper.
 
-## Repository Status
-
-This repo is meant to preserve the notebooks, outputs, and final report for review. The main result files are small enough to keep in Git, while raw datasets, model checkpoints, and local caches are intentionally excluded.
